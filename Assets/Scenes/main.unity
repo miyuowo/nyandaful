@@ -1533,6 +1533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: nekokanbox (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592877, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: id.value
+      value: 2822711197676004957
+      objectReference: {fileID: 0}
     - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2340,6 +2344,10 @@ PrefabInstance:
     - target: {fileID: 1130955409106592872, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_Name
       value: nekokanbox (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592877, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: id.value
+      value: 11767739696435193724
       objectReference: {fileID: 0}
     - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_RootOrder
@@ -3151,6 +3159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 451645426721529403, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
+      propertyPath: id.value
+      value: 8505964996932719419
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
 --- !u!4 &1537327597 stripped
@@ -3173,6 +3185,10 @@ PrefabInstance:
     - target: {fileID: 1130955409106592872, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_Name
       value: nekokanbox (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592877, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: id.value
+      value: 18352919379100113745
       objectReference: {fileID: 0}
     - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_RootOrder
@@ -3703,6 +3719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: nekokanbox (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592877, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: id.value
+      value: 4625788294706328561
+      objectReference: {fileID: 0}
     - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3931,6 +3951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 451645426721529403, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
+      propertyPath: id.value
+      value: 9287272957430510867
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
 --- !u!4 &1841798217 stripped
@@ -4143,6 +4167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 451645426721529403, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
+      propertyPath: id.value
+      value: 1362754829118256267
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
 --- !u!4 &1992161961 stripped
@@ -4204,6 +4232,10 @@ PrefabInstance:
     - target: {fileID: 451645426721529399, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
       propertyPath: m_Name
       value: coin 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 451645426721529403, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
+      propertyPath: id.value
+      value: 6781893485421440566
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9732da4f6048840b7a7bc0588b9f74, type: 3}
@@ -4382,6 +4414,10 @@ PrefabInstance:
     - target: {fileID: 1130955409106592872, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_Name
       value: nekokanbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592877, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: id.value
+      value: 4325061900198238594
       objectReference: {fileID: 0}
     - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
       propertyPath: m_RootOrder
