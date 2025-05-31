@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17665353, g: 0.22111794, b: 0.3034244, a: 1}
+  m_IndirectSpecularColor: {r: 0.17665276, g: 0.22111669, b: 0.3034229, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -557,6 +557,75 @@ CapsuleCollider:
   m_Height: 3.4976816
   m_Direction: 1
   m_Center: {x: 0.067994356, y: 1.5623553, z: 0.15747607}
+--- !u!1001 &313538067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1130955409106592872, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_Name
+      value: nekokanbox (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592876, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: triggers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592876, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: triggers.Array.data[4].key
+      value: countup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592876, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: triggers.Array.data[4].target
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.7800007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130955409106592878, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99613edf845eb4345bf5169d38d4cc72, type: 3}
 --- !u!1 &322053278
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,6 +3581,63 @@ MonoBehaviour:
                   boolValue: 0
                   floatValue: 0
                   integerValue: 1
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: countup
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: time
+              type: 6
+          operatorExpression:
+            operator: 2
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: time
+                  type: 1
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 5
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
