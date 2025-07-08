@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 84917246}
   - component: {fileID: 84917245}
   - component: {fileID: 84917248}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: PicketFence_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,11 +1012,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 451794669}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalScale.y
@@ -1024,23 +1024,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.70758605
+      value: 0.707586
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.01
+      value: 18.317448
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.17
+      value: -0.551
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 46.53
+      value: -7.1202025
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.38689065
+      value: -0.7070414
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1048,7 +1048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.92212564
+      value: 0.7071723
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1066,9 +1066,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6192899586001257289, guid: edf112b13963bc04bae943c490018617, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_Name
       value: PicketFence
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edf112b13963bc04bae943c490018617, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edf112b13963bc04bae943c490018617, type: 3}
@@ -1304,7 +1312,7 @@ GameObject:
   - component: {fileID: 450256631}
   - component: {fileID: 450256630}
   - component: {fileID: 450256633}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: PicketFence_mesh (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,9 +1433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 451794665}
   triggers:
-  - target: 4
+  - target: 0
     specifiedTargetItem: {fileID: 0}
-    key: hide
+    key: ShowHide
     type: 0
     value:
       boolValue: 0
@@ -1525,9 +1533,10 @@ Transform:
   m_LocalPosition: {x: 5.95, y: 0.381, z: 38.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1509881921}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -44.467, z: 0}
 --- !u!1 &472837654
 GameObject:
@@ -6024,30 +6033,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509881920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: 
-  size: {x: 0, y: 0, z: 0}
---- !u!114 &1509881926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509881920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce2b9f4eb5444df69e31db5c54e12447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   globalGimmickKey:
     key:
       target: 0
-      key: hide
-    item: {fileID: 1509881925}
+      key: ShowHide
+    item: {fileID: 451794665}
 --- !u!1 &1534516153
 GameObject:
   m_ObjectHideFlags: 0
