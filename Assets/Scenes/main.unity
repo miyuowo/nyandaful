@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17665276, g: 0.22111669, b: 0.3034229, a: 1}
+  m_IndirectSpecularColor: {r: 0.17665353, g: 0.22111794, b: 0.3034244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 281915242575931674
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!65 &451794666
@@ -3696,7 +3696,7 @@ MonoBehaviour:
     value:
       boolValue: 0
       floatValue: 0
-      integerValue: 100
+      integerValue: 200
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &849949686
@@ -5931,7 +5931,7 @@ MonoBehaviour:
       key: score
     item: {fileID: 0}
   parameterType: 3
-  format: "\u6B8B\u308A {0} / 100 "
+  format: "\u6B8B\u308A {0} / 200 "
 --- !u!114 &1506907541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5965,7 +5965,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u6B8B\u308A 100 / 100 "
+  m_Text: "\u6B8B\u308A 200 / 200 "
 --- !u!222 &1506907542
 CanvasRenderer:
   m_ObjectHideFlags: 0
