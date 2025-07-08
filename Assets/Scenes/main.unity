@@ -1024,7 +1024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.707586
+      value: 0.7075864
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edf112b13963bc04bae943c490018617, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   - target: 0
     specifiedTargetItem: {fileID: 0}
     key: ShowHide
-    type: 0
+    type: 1
     value:
       boolValue: 0
       floatValue: 0
